@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tc.travelcoin.Main2Activity">
+
+    <ImageView
+
+        android:id="@+id/flagImg"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sdlight" />
+
+    <TextView
+        android:id="@+id/flagTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="삼성 딜라이트"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/flagData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="삼성전자가 제시하는 미래의 가능성
+삼성전자와 함께 당신의 가능성을 발견하고,
+즐거움이 가득한 미래의 라이프스타일을 경험해보세요.
+
+삼성 딜라이트는 삼성전자의 최신 기술과 서비스를 통해
+미래를 체험하는 공간입니다.
+당신만의 감성과 상상력을 발견하고
+미래의 주역으로 성장한 당신의 모습을 만나보세요."
+        android:textColor="#000000" />
+
+</LinearLayout>
